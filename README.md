@@ -1,3 +1,3 @@
 # @storybook/vue alpha test
 
-The resizing of panels become extremely slow in this version (alpha.21)
+The resizing of panels become quite slow and lagging.
