@@ -1,0 +1,21 @@
+{
+  "name": "storybook-vue-alpha-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "start-storybook -p 9001 -c .storybook",
+    "build": "build-storybook -c .storybook -o dist"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@storybook/vue": "^4.0.0-alpha.21",
+    "babel-loader": "^8.0.2",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "dependencies": {
+    "vue": "^2.5.17",
+    "vue-select": "^2.5.0"
+  }
+}
