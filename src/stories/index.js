@@ -1,7 +1,11 @@
 import Vue from 'vue'
 import { storiesOf } from '@storybook/vue'
 
+import MyButton from '../MyButton.vue'
+
+
 storiesOf('Test', module)
-  .add('simple template', () => ({
-    template: '<v-select></v-select>'
+  .add('My button', () => ({
+    components: { MyButton },
+    template: '<div><my-button></my-button></div>'
   }))
